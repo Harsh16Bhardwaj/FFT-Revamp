@@ -1,7 +1,7 @@
 :root{
     --important: #cd2219;
     --primary-color1:#efa309;
-    --primary-color2:;
+    --primary-color2:#e5b555;
     --background-color:;
     --text-color1:;
     --text-color2:#004243;
@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: var(--primary-color1);
+
 }
 *{
     margin: 0;
@@ -120,8 +120,8 @@ header{
 /*Landing*/
 .landing{
     width: 100%;
-    
-}
+    background-color: var(--primary-color1);
+    background-image: radial-gradient(circle at 35% 14%, rgba(211,193,193, 0.21) 0%, rgba(211,193,193, 0.21) 39%,transparent 39%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 76% 4%, rgba(211,193,193, 0.21) 0%, rgba(211,193,193, 0.21) 83%,transparent 83%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 20% 33%, rgba(211,193,193, 0.21) 0%, rgba(211,193,193, 0.21) 83%,transparent 83%, transparent 90%,transparent 90%, transparent 100%),radial-gradient(circle at 44% 74%, rgba(211,193,193, 0.21) 0%, rgba(211,193,193, 0.21) 73%,transparent 73%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 26% 31%, rgba(211,193,193, 0.21) 0%, rgba(211,193,193, 0.21) 44%,transparent 44%, transparent 75%,transparent 75%, transparent 100%),linear-gradient(0deg, rgb(239,163,9),rgb(251,191,69));}
 .landingText{
     text-align: center;
     >h1{
@@ -135,8 +135,8 @@ header{
     :nth-child(3){
         margin-bottom: -1rem;
         font-size: 3.5rem;
-        font-weight: 600;
-        color: var(--primary-color1);
+        font-weight: 700;
+        color: white;
     }
     :nth-child(5){
         margin-top: -4rem;
@@ -145,11 +145,35 @@ header{
 }
 
 .landingBtn{
-    background-color: var(--primary-color1);
+    background-color: black;
     margin-left: 35%;
-    
+    transition: 200ms ease-in;
+    font-weight: 500;
+}
+.landingBtn:hover{
+    transform: scale(1.05);
+    background-color: var(--primary-color1);
+    color: black;
+    transition: 200ms ease-out;
+    font-weight: 700;
+    border: 1px solid black;
 }
 
+
+
+
+/* About Section start */
+.aboutUs{
+    text-align: center;
+}
+.aboutUsText{
+    z-index: 2;
+    position: relative;
+}
+.aboutImg{
+    margin-top: -18rem;
+    z-index: -1;
+}
 
 
 
