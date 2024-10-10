@@ -12,14 +12,21 @@
     font-family: "Poppins";
 }
 
-
+body{
+    background-color: var(--primary-color1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 /*Header*/
 header{
     position: fixed;
     width: 100%;
-    background: var(--text-color3);
+    background-color: var(--text-color2);
 }
 #logo-fft{
     transition: 600ms ease-in-out;
@@ -142,3 +149,137 @@ header{
     margin-left: 35%;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
