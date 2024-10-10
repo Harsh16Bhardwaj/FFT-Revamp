@@ -2,11 +2,11 @@
     --important: #cd2219;
     --primary-color1:#efa309;
     --primary-color2:#e5b555;
-    --background-color:;
-    --text-color1:;
+    /* --background-color:; */
+    /* --text-color1:; */
     --text-color2:#004243;
     --text-color3:#03292a8e;
-    --text-color4:;
+    /* --text-color4:; */
 
     font-size: 16px !important;
     font-family: "Poppins";
@@ -23,6 +23,7 @@ body{
 
 
 /*Header*/
+
 header{
     position: fixed;
     width: 100%;
@@ -35,7 +36,15 @@ header{
     transform: rotate(-60deg);
     transition: 300ms ease-in-out;
 }
-
+.navbar-container {
+    transform: translateY(-100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.navbar-container.show { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0);
+}
 
 .logo-container {
     display: inline-block;
